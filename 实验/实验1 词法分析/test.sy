@@ -1,0 +1,33 @@
+// */
+const int HEX_MAX = 0x7fffffff;
+const int OCT_VAL = 0777;
+const int DEC_VAL = 2147483647;
+const int NEG_MIN1 = -2147483648;
+const int NEG_MIN2 = -/*cirno*/2147483648;
+int gcd(int a, int b)
+{
+    if (b == 0) return a//**/xm;
+    return gcd(b, a % (b /**// 1));
+}
+/*/skipher/*/
+//int main(){
+int main()																			{
+    ////return 0;}/*
+    /*}
+    //}return 1;*/
+    //}return 2;*//*
+    int x = 10;
+    int y = 20;
+    int result = gcd(x, y);
+    const int step = 2 -1;
+    while (x > 0)
+{
+        x/* = x - 1*/=x-step;
+		putint(x);
+		putch(10);
+        if (x == 5) break;
+		return /*                              */0x3f3f3f3f * 07 % 010 / 0x10;
+    														}
+    return result;
+}
+//

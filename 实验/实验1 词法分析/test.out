@@ -1,0 +1,144 @@
+Token                         Lexeme                        Property                      Line    Column  
+CONST                         const                                                       2       0       
+INT                           int                                                         2       6       
+IDENT                         HEX_MAX                       HEX_MAX                       2       10      
+ASSIGN                        =                                                           2       18      
+INT_CONST                     0x7fffffff                    2147483647                    2       20      
+SEMICOLON                     ;                                                           2       30      
+CONST                         const                                                       3       0       
+INT                           int                                                         3       6       
+IDENT                         OCT_VAL                       OCT_VAL                       3       10      
+ASSIGN                        =                                                           3       18      
+INT_CONST                     0777                          511                           3       20      
+SEMICOLON                     ;                                                           3       24      
+CONST                         const                                                       4       0       
+INT                           int                                                         4       6       
+IDENT                         DEC_VAL                       DEC_VAL                       4       10      
+ASSIGN                        =                                                           4       18      
+INT_CONST                     2147483647                    2147483647                    4       20      
+SEMICOLON                     ;                                                           4       30      
+CONST                         const                                                       5       0       
+INT                           int                                                         5       6       
+IDENT                         NEG_MIN1                      NEG_MIN1                      5       10      
+ASSIGN                        =                                                           5       19      
+MINUS                         -                                                           5       21      
+LL_CONST                      2147483648                    2147483648                    5       22      
+SEMICOLON                     ;                                                           5       32      
+CONST                         const                                                       6       0       
+INT                           int                                                         6       6       
+IDENT                         NEG_MIN2                      NEG_MIN2                      6       10      
+ASSIGN                        =                                                           6       19      
+MINUS                         -                                                           6       21      
+LL_CONST                      2147483648                    2147483648                    6       31      
+SEMICOLON                     ;                                                           6       41      
+INT                           int                                                         7       0       
+IDENT                         gcd                           gcd                           7       4       
+LPAREN                        (                                                           7       7       
+INT                           int                                                         7       8       
+IDENT                         a                             a                             7       12      
+COMMA                         ,                                                           7       13      
+INT                           int                                                         7       15      
+IDENT                         b                             b                             7       19      
+RPAREN                        )                                                           7       20      
+LBRACE                        {                                                           8       0       
+IF                            if                                                          9       4       
+LPAREN                        (                                                           9       7       
+IDENT                         b                             b                             9       8       
+EQ                            ==                                                          9       10      
+INT_CONST                     0                             0                             9       13      
+RPAREN                        )                                                           9       14      
+RETURN                        return                                                      9       16      
+IDENT                         a                             a                             9       23      
+RETURN                        return                                                      10      4       
+IDENT                         gcd                           gcd                           10      11      
+LPAREN                        (                                                           10      14      
+IDENT                         b                             b                             10      15      
+COMMA                         ,                                                           10      16      
+IDENT                         a                             a                             10      18      
+PERCENT                       %                                                           10      20      
+LPAREN                        (                                                           10      22      
+IDENT                         b                             b                             10      23      
+SLASH                         /                                                           10      29      
+INT_CONST                     1                             1                             10      31      
+RPAREN                        )                                                           10      32      
+RPAREN                        )                                                           10      33      
+SEMICOLON                     ;                                                           10      34      
+RBRACE                        }                                                           11      0       
+INT                           int                                                         14      0       
+IDENT                         main                          main                          14      4       
+LPAREN                        (                                                           14      8       
+RPAREN                        )                                                           14      9       
+LBRACE                        {                                                           14      84      
+INT                           int                                                         19      4       
+IDENT                         x                             x                             19      8       
+ASSIGN                        =                                                           19      10      
+INT_CONST                     10                            10                            19      12      
+SEMICOLON                     ;                                                           19      14      
+INT                           int                                                         20      4       
+IDENT                         y                             y                             20      8       
+ASSIGN                        =                                                           20      10      
+INT_CONST                     20                            20                            20      12      
+SEMICOLON                     ;                                                           20      14      
+INT                           int                                                         21      4       
+IDENT                         result                        result                        21      8       
+ASSIGN                        =                                                           21      15      
+IDENT                         gcd                           gcd                           21      17      
+LPAREN                        (                                                           21      20      
+IDENT                         x                             x                             21      21      
+COMMA                         ,                                                           21      22      
+IDENT                         y                             y                             21      24      
+RPAREN                        )                                                           21      25      
+SEMICOLON                     ;                                                           21      26      
+CONST                         const                                                       22      4       
+INT                           int                                                         22      10      
+IDENT                         step                          step                          22      14      
+ASSIGN                        =                                                           22      19      
+INT_CONST                     2                             2                             22      21      
+MINUS                         -                                                           22      23      
+INT_CONST                     1                             1                             22      24      
+SEMICOLON                     ;                                                           22      25      
+WHILE                         while                                                       23      4       
+LPAREN                        (                                                           23      10      
+IDENT                         x                             x                             23      11      
+GT                            >                                                           23      13      
+INT_CONST                     0                             0                             23      15      
+RPAREN                        )                                                           23      16      
+LBRACE                        {                                                           24      0       
+IDENT                         x                             x                             25      8       
+ASSIGN                        =                                                           25      21      
+IDENT                         x                             x                             25      22      
+MINUS                         -                                                           25      23      
+IDENT                         step                          step                          25      24      
+SEMICOLON                     ;                                                           25      28      
+IDENT                         putint                        putint                        26      8       
+LPAREN                        (                                                           26      14      
+IDENT                         x                             x                             26      15      
+RPAREN                        )                                                           26      16      
+SEMICOLON                     ;                                                           26      17      
+IDENT                         putch                         putch                         27      8       
+LPAREN                        (                                                           27      13      
+INT_CONST                     10                            10                            27      14      
+RPAREN                        )                                                           27      16      
+SEMICOLON                     ;                                                           27      17      
+IF                            if                                                          28      8       
+LPAREN                        (                                                           28      11      
+IDENT                         x                             x                             28      12      
+EQ                            ==                                                          28      14      
+INT_CONST                     5                             5                             28      17      
+RPAREN                        )                                                           28      18      
+BREAK                         break                                                       28      20      
+SEMICOLON                     ;                                                           28      25      
+RETURN                        return                                                      29      8       
+INT_CONST                     0x3f3f3f3f                    1061109567                    29      49      
+STAR                          *                                                           29      60      
+INT_CONST                     07                            7                             29      62      
+PERCENT                       %                                                           29      65      
+INT_CONST                     010                           8                             29      67      
+SLASH                         /                                                           29      71      
+INT_CONST                     0x10                          16                            29      73      
+SEMICOLON                     ;                                                           29      77      
+RBRACE                        }                                                           30      60      
+RETURN                        return                                                      31      4       
+IDENT                         result                        result                        31      11      
+SEMICOLON                     ;                                                           31      17      
+RBRACE                        }                                                           32      0       
